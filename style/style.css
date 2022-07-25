@@ -1,0 +1,607 @@
+.body1{
+    background-image: url(../assets/images/portada\ 2.jpeg) ;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+}
+
+
+
+.grid_container{
+
+
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    
+    "isologo isologo isologo"
+    " nav nav nav"
+    "sec1 sec1 sec1"
+    "ar2 ar2 aside"
+    "title_circuit title_circuit aside"
+    "circuitos circuitos aside" 
+    "video1 video1 video1"
+    "ar3 ar3 ar3"
+    "footer footer footer";
+}
+
+
+.font_size{
+    font-size: larger;
+}
+
+.font_white{
+    color: white;
+}
+
+.text_decoration{
+
+    text-decoration: underline white;
+}
+    
+
+h1{
+    font-size: 5vw;
+}
+
+.logo{
+
+    width: 10%;
+}
+
+
+.isologo{
+    display: flex;
+    align-items: center;
+    grid-area: isologo;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: nav;
+    
+}
+
+.body1 nav a{
+    background-color: red;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: rgb(182, 109, 109);
+    color: rgb(8, 39, 39);
+    border-radius: 10px;
+   
+}
+
+.sec1{
+    margin: 0.5% 0;
+    padding: 0;
+    grid-area: sec1;
+    
+}
+
+.sec1 article{
+
+    background-color: black;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.ktm450{
+    margin-top: 2%;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+
+
+aside{
+    margin-bottom: 2%;
+    grid-area: aside;
+    display: flex;
+    justify-content: end;
+}
+
+aside figure{
+    margin: 0;
+}
+
+.circuitos{
+    display: flex;
+    justify-content: center;
+    grid-area: circuitos;
+
+}
+
+.title_circuit{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: title_circuit;
+}
+
+.circuit{
+    grid-area: circuit;
+}
+.circuit img{
+    border-radius: 10px;
+}
+
+.circuit {
+    grid-area: circuit;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2%;
+
+}
+
+.circuit1{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.body1 figcaption{
+    background-color: black;
+    display: inline;
+}
+
+.circuit2{
+    width: 100%;
+    background-color: black;
+
+}
+
+
+.ar2{
+
+    height: fit-content;
+    border-radius: 10px;
+    grid-area: ar2;
+    display: flex;
+    align-items: center;
+    line-height: 2vh;
+    /* padding-top: 2%; */
+    margin-right: .5%;
+    background-color: black;
+}
+
+.ar3{
+    width: 80vw;
+    grid-area: ar3;
+}
+
+.video1{
+    margin: 0;
+    padding: 0;
+    width: 90vw;
+    grid-area: video1;
+    
+}
+
+footer{
+    grid-area: footer;
+}
+
+footer img{
+
+    width: 90vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about web */
+
+
+
+.body2{
+
+    margin: 2%;
+    padding: auto;
+    background: linear-gradient(#464242, #3f87a6) ;
+    background-repeat: no-repeat;
+    
+  
+}
+
+.page_container2{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "h1_about h1_about h1_about"
+    "nav_about nav_about nav_about"
+    "article_about article_about article_about"
+    "piloto table_container table_container"
+    "footer_about footer_about footer_about";
+
+   
+}
+
+.h1_about{
+
+    text-align: center;
+    grid-area: h1_about;
+}
+.table_container{
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    grid-area: table_container;
+}
+
+table{
+    border: 5px solid black;
+   
+    border-collapse: collapse;
+    
+}
+
+th, td{
+    border-collapse:collapse;
+    border: 1px solid black;
+    text-align: center;
+   
+}
+
+.foto_tabla{
+
+    width: 40%;
+    padding: 1%;
+}
+
+.article_about{
+    grid-area: article_about;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+.piloto{
+    display: flex;
+    grid-area: piloto;
+    align-items: center;
+    margin-top: 12%;
+}
+
+.nav_about{
+
+    grid-area: nav_about;
+    width: 100%;
+    border: rgb(131, 130, 130) 2px solid;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+
+.footer_about{
+
+    grid-area: footer_about;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot_image{
+
+    width: 20%;
+}
+
+.body2 nav a{
+
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+/* contact */
+
+.body_contact{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgb(119, 119, 161));
+    background-repeat: no-repeat;
+}
+.body_contact nav a{
+   
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.gid_container3{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+ 
+    grid-template-areas: 
+    
+    "nav_contact nav_contact nav_contact"
+    "contactus contactus contactus"
+    " form_contact form_contact  footer_contact";
+    /* "footer_contact footer_contact footer_contact"; */
+}
+
+.nav_contact{
+
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: nav_contact;
+    margin-top: 2%
+    width: 100%;
+    border: rgb(131, 130, 130) 2px solid;
+    border-radius: 10px;
+    background-color: bisque;
+
+}
+
+
+.contactus{
+
+    display: flex;
+    grid-area: contactus;
+
+    justify-content: center;
+    font-size: xx-large;
+
+    margin-top: 3%;
+    te
+}
+
+.form_contact{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: form_contact;
+    border: solid 2px;
+    width: fit-content;
+    justify-self: center;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.input_size{
+ 
+    width: 350px;
+    height: 25px;
+}
+
+.form_contact textarea{
+
+    width: 330px;
+}
+
+.buttons{
+
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    gap: 10%;
+ 
+
+}
+
+.buttons input{
+
+    width: 25%;
+    height: 170%;
+}
+
+
+
+.footer_contact{
+    margin-top: 5%;
+    grid-area: footer_contact;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contact{
+    margin-top: 5%;
+    grid-area: footer_contact;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    row-gap: 10px;
+}
+
+.body_contact footer img{
+
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 990px){
+
+    .grid_container{
+
+
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        
+        "isologo "
+        " nav "
+        "sec1 "
+        " aside "
+        "ar2"
+        "title_circuit"
+        "circuitos"
+        "video1"
+        "ar3"
+        "footer";
+     
+    }
+
+    aside{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .page_container2{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "h1_about"
+        "nav_about"
+        "article_about"
+        "piloto"
+        "table_container"
+        "footer_about";
+    }
+        
+    .piloto{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .gid_container3{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "nav_contact"
+        "contactus"
+        "form_contact"
+        "footer_contact";
+
+    }
+
+    .footer_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .body_contact footer img {
+        width: 25%;
+    }
+
+    .form_contact{
+        padding: 10%;
+    }
+
+    .contactus{
+        margin-top: 10%;
+
+    }
+}
+
+
+@media screen and (max-width:600px){
+
+
+    .grid_container{
+
+
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        
+        "isologo "
+        " nav "
+        "sec1 "
+        "ar2"
+        "title_circuit"
+        "circuitos"
+        "video1"
+        "ar3"
+        "footer";
+     
+    }
+
+    aside{
+        display: none;
+    }
+
+    
+    .body2{
+        width: 100vw;
+        background-repeat: repeat;
+      }
+
+
+
+      .body_contact{
+        background-repeat: repeat;
+      }
+
+      .form_contact{
+
+        width: 75%;
+      }
+
+      .input_size{
+
+        width: 85%;
+      }
+
+      .form_contact textarea{
+        width: 85%;
+      }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
